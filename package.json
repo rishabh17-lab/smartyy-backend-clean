@@ -1,0 +1,23 @@
+{
+  "name": "smartyy-backend",
+  "version": "1.0.0",
+  "description": "Backend for Smartyy AI",
+  "main": "backend2.js",
+  "scripts": {
+    "start": "node backend2.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "mammoth": "^1.4.2",
+    "mongoose": "^7.3.0",
+    "multer": "^1.4.5-lts.1",
+    "pdf-parse": "^1.1.1",
+    "razorpay": "^2.9.0",
+    "winston": "^3.12.0"
+  }
+}
